@@ -1,0 +1,137 @@
+.assessment-container {
+    background: linear-gradient(168.85deg, #2ABA9F 0%, #014000 99.57%);
+    height: 100vh;
+}
+
+.assessment-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1.5px solid #084237;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 35px;
+
+}
+
+
+.assessment-logo {
+
+    font-family: 'Playfair Display';
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 37.32px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.assessment-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 5rem;
+}
+
+.assessment-content h1 {
+    font-family: 'Montserrat';
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+}
+
+.assessment-content p {
+    margin-top: 2rem;
+    font-family: 'Montserrat';
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 17.07px;
+    text-align: center;
+    color: #fff;
+}
+
+.start-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    background: #fff;
+    border: none;
+    border-radius: 105px;
+    font-family: 'Montserrat';
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 20px;
+    color: #084237;
+    cursor: pointer;
+    width: 18%
+}
+
+.assessment-logo-mob {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .assessment-container {
+        height: 100vh;
+    }
+
+    .assessment-content {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .assessment-header {
+        margin-left: 20px;
+        margin-right: 20px;
+        border-bottom: none;
+    }
+
+    .assessment-content h1 {
+        margin-top: -4rem;
+        font-size: 24px;
+        line-height: 35px;
+    }
+
+
+    .assessment-img {
+        margin-top: 2rem;
+    }
+
+    .assessment-logo {
+        display: none;
+    }
+
+    .assessment-logo-mob {
+        display: block;
+        font-family: 'Playfair Display';
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 37.32px;
+        text-align: center;
+        cursor: pointer;
+        margin-top: 2rem;
+    }
+    .assessment-heading {
+        display: flex;  /* Or inline-flex for inline behavior */
+        flex-direction: column; /* Stack elements vertically */
+      }
+
+    .assessment-content p {
+        margin-top: 4rem;
+        font-size: 1rem;
+        line-height: 20px;
+    }
+
+    .start-btn {
+        width: 75%;
+    }
+
+}

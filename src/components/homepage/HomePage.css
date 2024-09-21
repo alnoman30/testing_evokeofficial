@@ -1,0 +1,473 @@
+.hea-der {
+    width: 100%;
+    height: 1.8rem;
+    font-family: 'Roboto';
+    font-size: 13.98px;
+    font-weight: 400;
+    line-height: 42.94px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    margin-top: -8px;
+    background: #084237;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hea-der1{
+    display: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #fff;
+    border-bottom: 1.5px solid #084237;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 35px;
+    /* border: 1px solid #084237 */
+}
+
+.logo {
+    font-family: 'Playfair Display';
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 37.32px;
+    text-align: left;
+    cursor: pointer;
+
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.location {
+    margin-right: 1rem;
+}
+
+.location-img{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.location-img img {
+    transform: scale(0.9);
+}
+
+.btn {
+    font-family: 'Montserrat';
+    font-size: 13.98px;
+    font-weight: 400;
+    line-height: 17.04px;
+    background-color: white;
+    color: #084237;
+    border: 0.87px solid #084237;
+    padding: 0.5rem 1rem;
+    border-radius: 85px;
+    cursor: pointer;
+}
+
+.btn1{
+    font-family: 'Montserrat';
+    font-size: 13.98px;
+    font-weight: 400;
+    line-height: 17.04px;
+    background-color: white;
+    color: #084237;
+    border: 0.87px solid #084237;
+    padding: 0.5rem 1rem;
+    border-radius: 85px;
+    cursor: pointer;
+    height: 2.4vh;
+
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    padding: 2.5rem;
+    background-color: #70AC7C30;
+    border-radius: 20px;
+    margin: 1.5rem;
+    height: 45vh;
+}
+
+.hero-content {
+    /* margin-left: 35px; */
+    margin-top: 30px;
+}
+
+.hero-content div {
+    font-family: 'Montserrat';
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 51.93px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: black;
+
+
+}
+
+.hero-content p {
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 36.95px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: black;
+    margin-top: 10px;
+
+}
+
+.hero-content span {
+    color: #004d40;
+    font-family: 'Montserrat';
+    font-size: 34px;
+    font-weight: 530;
+    line-height: 49.93px;
+    letter-spacing: 0.03em;
+    text-align: left;
+
+}
+
+.hero-button {
+    background-color: #004d40;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: #FFFFFF;
+    padding: 0.5rem 1rem;
+    border-radius: 120px;
+    width: 240px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    border: none;
+    
+
+}
+
+.hero-stats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    margin-right: -50px;
+    margin-left: 120px;
+
+}
+
+.stat-item1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(248, 249, 248, 0.6);
+    padding: 1rem;
+    margin: 0.5rem;
+    border-radius: 10px;
+    box-shadow: 0px 3.26px 3.26px 0px #034561;
+    text-align: center;
+    color: #00594F;
+    height: 10px;
+    gap: 0.8rem;
+}
+
+.stat-item2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(248, 249, 248, 0.6);
+    padding: 1rem;
+    margin: 0.5rem;
+    border-radius: 10px;
+    box-shadow: 0px 3.26px 3.26px 0px #034561;
+    text-align: center;
+    color: #00594F;
+    height: 10px;
+    width: fit-content;
+    margin-left: 180px;
+    margin-top: 42px;
+    gap: 1rem;
+}
+
+.stat-item3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(248, 249, 248, 0.6);
+    padding: 1rem;
+    margin: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0px 3.26px 3.26px 0px #034561;
+    text-align: center;
+    color: #00594F;
+    height: 10px;
+    width: fit-content;
+    margin-right: 80px;
+    margin-top: 42px;
+    gap: 1rem;
+}
+
+.hero-image1 {
+    position: relative;
+    top: 115px;
+    left: 200px;
+
+}
+
+.hero-image2 {
+    position: relative;
+    top: 240px;
+    right: 65px;
+    /* left: 170px; */
+
+}
+
+.assessment {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.assessment span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat';
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 26.82px;
+    text-align: left;
+    color: #478678;
+    margin-top: 50px;
+    letter-spacing: 1px;
+
+
+}
+
+.assessment-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #084237;
+    width: 330px;
+    height: 45px;
+    /* margin-left: 610px; */
+    border-radius: 40px;
+    margin-top: 20px;
+    gap: 1rem;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19.5px;
+    text-align: left;
+
+}
+
+.assessment-button1 {
+    background-color: #084237;
+    color: white;
+    border: none;
+}
+
+.assessment-button {
+    background-color: #A5D696;
+    color: #084237;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 40px;
+    margin-right: -10px;
+    cursor: pointer;
+
+}
+
+@media screen and (min-width: 1280px) {
+    .hero-image2 {
+        right: -25px;
+
+    }
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    /* Add your mobile-specific CSS here */
+
+    .hea-der {
+        display: none;
+    }
+
+    .hea-der1 {
+        position: fixed;
+        z-index: 1000;
+        margin-top: -5rem;
+        width: 100%;
+        height: 7vh;
+        background: #084237;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .hea-der1 span {
+        font-family: 'Playfair Display';
+        font-size: 28px;
+        font-weight: 800;
+        line-height: 37.32px;
+        text-align: left;
+        margin-left: 18px;
+
+    }
+
+    .hea-der1 div {
+        font-family: 'Montserrat';
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        margin-right: 18px;
+
+    }
+
+    .call-now {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .hero {
+        padding: 0px !important;
+        flex-direction: column;
+        height: auto;
+        margin-top: 5rem;
+    }
+
+    .header {
+        display: none;
+    }
+
+    .hero-button {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .hero-content-div {
+        width: 60%;
+    }
+
+    .hero-content {
+        margin-left: 15px;
+    }
+
+    .hero-content span {
+        font-size: 26px;
+        line-height: 32px;
+    }
+
+    .hero-content div {
+        margin-left: 0px;
+        font-size: 26px;
+        line-height: 40px;
+        padding: 0px !important;
+    }
+
+    .hero-content p {
+        font-size: 14px;
+        /* line-height: 18px; */
+    }
+
+    .hero-image1 {
+        left: 15px;
+        bottom: 25px;
+        transform: scale(0.7);
+        top: -17px;
+        margin-left: 240px;
+    }
+
+    .hero-image2 {
+        transform: scale(0.7);
+        bottom: 162px;
+        left: 15px;
+        top: -170px;
+        margin-left: 160px;
+    }
+
+    .assessment span {
+        display: none;
+    }
+
+    .hero-stats {
+        display: block;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: -60px;
+        padding: 15px;
+        font-size: 12px !important;
+       
+    }
+
+    .stat-item1 {
+        margin-left: 0px;
+        margin-right: 0px;
+        width: fit-content;
+    }
+
+    .stat-item2 {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 25px;
+        width: fit-content;
+    }
+
+    .stat-item3 {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 25px;
+        width: fit-content;
+    }
+
+    .stat-item1 span {
+        font-size: 14px !important;
+    }
+
+    .stat-item2 span {
+        font-size: 14px !important;
+    }
+
+    .stat-item3 span {
+        font-size: 14px !important;
+    }
+
+    
+
+    .assessment-buttons {
+        margin-left: 10px !important;
+    }
+
+    .assessment-button {
+        padding: 0.5rem 1rem;
+        border-radius: 40px;
+        margin-right: 0px;
+        cursor: pointer;
+    }
+
+}

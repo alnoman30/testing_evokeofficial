@@ -1,0 +1,67 @@
+.aboutUs-foster {
+    text-align: center;
+    padding: 2rem;
+    margin-top: 4rem;
+}
+
+.aboutUs-foster-title {
+    font-family: 'Montserrat';
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 21.46px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #478678;
+    margin-top: -2rem;
+}
+
+.aboutUs-foster-description {
+    display: none;
+
+}
+
+.aboutUs-foster-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: justify;
+    margin-top: 2rem;
+    width: 90vw;
+    margin-left: 2rem;
+    color: #555555;
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .aboutUs-foster {
+        margin-top: 4rem;
+    }
+
+    .aboutUs-foster-content {
+        margin-left: 0;
+        font-family: 'Montserrat';
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 30px;
+        text-align: center;
+        color: #555555;
+        width: 80vw;
+        margin-left: 1rem;
+
+    }
+
+    .aboutUs-foster-title {
+        font-size: 20px;
+    }
+
+
+
+}

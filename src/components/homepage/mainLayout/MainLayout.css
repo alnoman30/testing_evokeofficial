@@ -1,0 +1,13 @@
+
+.border-btm {
+    border-bottom:6px solid #FAFAFA;
+    margin-top: 3rem;
+}
+
+@media screen and (max-width: 768px) {
+    .border-btm {
+        border-bottom: 8px solid #FAFAFA;
+        margin-top: 1rem;
+    }
+    
+}

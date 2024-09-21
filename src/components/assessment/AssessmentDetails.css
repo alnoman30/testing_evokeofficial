@@ -1,0 +1,111 @@
+.bar{
+    margin-top: 0.5rem;
+    margin-left: 3rem;
+}
+
+.bar img{
+    margin-top: 0.5rem;
+    width: 94vw;
+    height: 2rem;
+}
+
+.bar span{
+    font-family: 'Montserrat';
+font-size: 16px;
+font-weight: 500;
+line-height: 19.5px;
+letter-spacing: 0.01em;
+text-align: left;
+color: #000000;
+}
+
+.assessment-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 3rem;
+    background: linear-gradient(103.86deg, #C8FFD3 0%, #6BAB61 100%);
+    border-radius: 10px;
+    height: 60vh;
+    width: 94vw;
+    margin-top: 1rem;
+}
+
+.assessment-booking{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 2rem;
+  
+}
+
+.assessment-booking input{
+    background: none;
+}
+
+.assessment-form-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    background-color: #084237;
+    border-radius: 75px;
+    width: 20vw;
+    height: 7vh;
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+font-size: 14px;
+font-weight: 500;
+line-height: 17.07px;
+text-align: left;
+border: none;
+
+}
+
+
+.error {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+
+.mob-bar{
+    display: none;
+
+}
+
+@media screen and (max-width: 768px) {
+    .assessment-details{
+        width: 80vw;
+        background: none;
+        margin-left: 2rem;
+    }
+    .bar img{
+        width: 80vw;
+    }
+    .assessment-form-button{
+        width: 80vw;
+        margin-top: 15rem;
+    }
+
+    .step12{
+        display: none;
+    }
+
+    .web-bar{
+        display: none;
+    }
+
+    .mob-bar{
+        display: block;
+        margin-left: -1.5rem;
+    }
+
+    .assessment-booking{
+        margin-top: 8rem;
+    }
+    
+}

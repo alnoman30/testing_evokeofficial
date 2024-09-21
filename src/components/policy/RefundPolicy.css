@@ -1,0 +1,99 @@
+
+.refund-policy-data{
+    margin-top: -3rem;
+    padding: 3rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    
+}
+
+.refund-policy-heading{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+    text-align: justify;
+}
+
+.refund-policy-data h1{
+    font-family: 'Montserrat';
+font-size: 30px;
+font-weight: 600;
+line-height: 40px;
+letter-spacing: 0.02em;
+text-align: left;
+color: black;
+
+}
+
+.refund-policy-data h2{
+    font-family: 'Montserrat';
+font-size: 24px;
+font-weight: 600;
+line-height: 40px;
+letter-spacing: 0.02em;
+text-align: left;
+color: black;
+
+}
+
+.refund-policy-data p{
+    font-family: 'Montserrat';
+font-size: 16px;
+font-weight: 400;
+line-height: 35px;
+text-align: justify;
+color: #555555;
+
+}
+
+.refund-policy-data ul{
+    font-family: 'Montserrat';
+font-size: 16px;
+font-weight: 400;
+line-height: 35px;
+text-align: justify;
+color: #555555;
+
+
+}
+
+.refund-policy-data li{
+    margin-left: 8px;
+}
+
+.refund-policy-data ul{
+    margin-left: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .refund-policy-data{
+        padding: 2rem;
+        margin-top: 5rem;
+    }
+    .refund-policy-heading{
+        align-items: left;
+    }
+    .refund-policy-data h1{
+        font-size: 22px;
+        line-height: 40px;
+    }
+
+    .refund-policy-data h2{
+        font-size: 18px;
+        line-height: 40px;
+    }
+    .refund-policy-data p{
+        font-size: 12px;
+        line-height: 27px;
+    }
+
+    .refund-policy-data ul{
+        font-size: 12px;
+        line-height: 27px;
+    }
+    
+}

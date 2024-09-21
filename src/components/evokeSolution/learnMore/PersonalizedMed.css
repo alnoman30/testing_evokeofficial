@@ -1,0 +1,360 @@
+.service-page-container {
+    margin-top: -3rem;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 2rem;
+    font-family: 'Montserrat';
+}
+
+.service-page-container h1 {
+    font-family: 'Montserrat';
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: black;
+    border-bottom: 5px solid #084237;
+    width: fit-content;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.service-page-container h4 {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    border-bottom: 2px solid #478678;
+    width: fit-content;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+
+}
+
+.service-page-container p {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: justify;
+    color: #555555;
+}
+
+.show-more {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 35px;
+    text-align: justify;
+    color: #084237;
+
+}
+
+.show-more:hover {
+    color: #478678;
+    cursor: pointer;
+}
+
+.service-page-content-div ol {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: justify;
+    color: #000;
+    margin-left: 1.1rem;
+}
+
+.service-page-content-div p {
+    margin-top: 6px;
+}
+
+.service-page-content-div ul {
+    margin-top: 4px;
+    margin-left: 1.2rem;
+    color: #555555;
+}
+
+.book-clinic-visit-p {
+    display: flex;
+    flex-direction: column;
+    /* gap: 0.5rem; */
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.treatment-div p {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 29px;
+    text-align: justify;
+    margin-top: 0.5rem;
+    color: #084237;
+}
+
+.treatment-div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    height: 200px;
+    background-color: #70AC7C80;
+    border-radius: 15px;
+    /* width: 95%; */
+}
+
+.treatment-div button {
+    width: 300px;
+    height: 50px;
+    background-color: #084237;
+    color: white;
+    border: none;
+    border-radius: 105px;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 29px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.non-surgical span {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #555555;
+
+}
+
+.non-surgical p {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: justify;
+    color: #555555;
+    margin-bottom: 1rem;
+}
+
+.non-surgical ul {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: justify;
+
+}
+
+.non-surgical .show-more {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 35px;
+    text-align: justify;
+    color: #084237;
+
+}
+
+
+.mobile-navigation-bar {
+    display: none;
+
+}
+
+
+
+.mobile-navigation-bar .dot {
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    line-height: 0;
+    margin: 0 5px;
+    color: #084237;
+    /* Adjust the color as needed */
+}
+
+.main-img-mob {
+    display: none;
+}
+.fue-img-web{
+    width: 100%;
+    height: 400px;
+    object-fit: contain; 
+}
+
+@media (max-width: 768px) {
+    .mobile-navigation-bar {
+        display: flex;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 4px;
+        grid-row-gap: 1rem;
+        justify-content: center;
+        color: #084237;
+        font-family: 'Montserrat';
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 18px;
+        text-align: center;
+
+    }
+
+    .main-img-web {
+        display: none;
+    }
+
+    .main-img-mob {
+        display: block;
+
+    }
+
+    .service-page-container {
+        margin-top: 5rem;
+        padding: 2rem;
+    }
+
+    .service-page-container h1 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .service-page-container h4 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .service-page-container p {
+        font-size: 12px;
+        line-height: 25px;
+    }
+
+    .service-page-content-div ol {
+        font-size: 12px;
+        line-height: 25px;
+    }
+
+    .service-page-content-div p {
+        font-size: 12px;
+        line-height: 25px;
+    }
+
+    .service-page-content-div ul {
+        font-size: 12px;
+        line-height: 25px;
+    }
+
+    .book-clinic-visit-p p {
+        font-size: 16px;
+        line-height: 29px;
+        text-align: center;
+    }
+
+    .treatment-div {
+        height: 300px;
+    }
+
+    .treatment-div p {
+        font-size: 16px;
+        line-height: 29px;
+        text-align: center;
+        width: 85%;
+    }
+
+    .treatment-div button {
+        width: 250px;
+        height: 40px;
+        font-size: 12px;
+        line-height: 25px;
+    }
+
+    .non-surgical span {
+        font-size: 12px;
+        line-height: 25px;
+    }
+
+    .non-surgical p {
+        font-size: 12px;
+        line-height: 25px;
+    }
+
+
+
+    .non-surgical ul {
+        font-size: 12px;
+        line-height: 25px;
+    }
+
+    .non-surgical .show-more {
+        font-size: 12px;
+        line-height: 25px;
+    }
+
+    .show-more {
+        font-size: 12px;
+        line-height: 25px;
+    }
+
+    .show-more:hover {
+        font-size: 12px;
+        line-height: 25px;
+    }
+
+    .mobile-navigation-bar button {
+        margin: 0 5px;
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    .mobile-navigation-bar .dot {
+        font-size: 35px;
+    }
+
+    .treatment-navigation-bar {
+        flex-direction: column;
+    }
+
+    .treatment-navigation-bar {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 10px 0;
+
+    }
+
+    .treatment-navigation-bar span {
+        margin: 0 10px;
+        cursor: pointer;
+        color: #084237;
+        /* Adjust the color as needed */
+        font-family: 'Montserrat';
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 18px;
+        text-align: center;
+
+    }
+
+    .treatment-navigation-bar .dot {
+        font-size: 35px;
+        line-height: 0;
+        margin: 0 5px;
+        color: #084237;
+        /* Adjust the color as needed */
+    }
+
+    .mip-img{
+        transform: scale(0.5);
+    }
+}

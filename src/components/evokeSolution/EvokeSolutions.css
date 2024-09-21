@@ -1,0 +1,243 @@
+/* src/components/EvokeSolutions.css */
+.evoke-solutions {
+    text-align: center;
+    padding: 2rem;
+}
+
+.evoke-solutions-title {
+    margin-top: 2rem;
+    font-size: 24px;
+    color: #1c7c54;
+    /* Replace with your desired color */
+    margin-bottom: 1rem;
+    font-family: 'montserrat';
+}
+
+.evoke-solutions-description {
+    color: #666;
+    margin-bottom: 2rem;
+    font-family: 'Montserrat';
+    max-width: 40vw;
+    /* Adjust this value to control the wrapping */
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: #555555;
+
+}
+
+.evoke-solutions-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 3rem !important;
+    grid-row-gap: 3rem !important;
+    gap: 1rem;
+    justify-content: center;
+    padding: 5rem;
+
+
+}
+
+.evoke-solution-card {
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    padding: 1rem;
+    box-shadow: 0px 0px 10px 0px #00000026;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    text-align: start;
+    height: 300px;
+}
+
+.evoke-solution-image {
+    max-width: 100%;
+    border-radius: 8px;
+    height: 70%;
+    object-fit: cover;
+    
+}
+
+.evoke-solution-title {
+    font-size: 1.25rem;
+    padding: 0.2rem;
+    margin-top: 1rem;
+    /* margin-bottom: 1rem; */
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27.77px;
+    text-align: left;
+    color: #00594F;
+
+
+}
+
+ .evoke-solution-desc{
+    color: #084237;
+    font-family: 'Montserrat';
+font-size: 14px;
+font-weight: 400;
+line-height: 20.8px;
+text-align: left;
+
+ }
+
+.evoke-solution-link {
+    color: #1c7c54;
+    /* Replace with your desired color */
+    text-decoration: none;
+    padding: 0.2rem;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 14.7px;
+    text-align: left;
+    cursor: pointer;
+    margin-top: 0.5rem;
+
+    /* margin-top: 1rem;
+    margin-bottom: 1rem; */
+}
+
+.evoke-highlight-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    /* background: #f9f9f9; */
+}
+
+.evoke-highlight-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27.77px;
+    text-align: left;
+    color: #084237;
+
+}
+
+.evoke-highlight-description {
+    color: #666;
+    margin-bottom: 1rem;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.1rem;
+    text-align: center;
+
+}
+
+.evoke-highlight-button {
+    background-color: #084237;
+    /* Replace with your desired color */
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 104px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15vw;
+
+}
+
+.whatsapp-icon img{
+    display: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+    .evoke-solutions-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .evoke-solutions-grid {
+        grid-template-columns: 1fr;
+        grid-column-gap: 20px !important;
+        grid-row-gap: 20px !important;
+        margin-top: 2rem;
+        padding: 0;
+    }
+
+    .evoke-solutions-title {
+        font-size: 1rem;
+    }
+
+    .whatsapp-icon{
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+       
+        /* margin-left: 2rem; */
+    }
+    
+    .whatsapp-icon img{
+        display: block;
+        width: 50px;
+        height: 50px;
+        margin-left: 1rem;
+        position: fixed;
+        bottom: 2rem; /* Adjust the distance from the bottom */
+        right: 20px;
+        z-index: 1000;
+    }
+
+    .evoke-solutions-description {
+        max-width: none;
+        font-size: 12px;
+        color: #555555;
+    }
+
+    .evoke-solution-desc{
+        font-size: 10px;
+    }
+    
+
+    .evoke-solution-card {
+        border-radius: 10px;
+        height: 20vh;
+    }
+
+    .evoke-solution-title {
+        font-size: 1rem;
+        padding: 0;
+        margin-top: 0.5rem;
+        line-height: 22px;
+        /* height: -webkit-fill-available; */
+        width: -2vw;
+    }
+
+    .evoke-solution-image {
+        transform: scale(1.1);
+        height: 12vh;
+        max-width: 90%;
+        margin-left: 1rem;
+    }
+
+    .evoke-solution-link {
+        margin-top: 1rem;
+        font-size: 14px;
+        padding: 0;
+        line-height: 14px;
+        color: #084237;
+    }
+
+    .evoke-highlight-title {
+        font-size: 1rem;
+    }
+
+    .evoke-highlight-description {
+        font-size: 12px;
+    }
+}

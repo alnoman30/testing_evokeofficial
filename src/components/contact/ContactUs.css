@@ -1,0 +1,132 @@
+.contact-form {
+    background-color: #004d40;
+    padding: 4.5rem;
+    color: white;
+    text-align: left;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contact-form h3 {
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 37px;
+    text-align: start;
+
+}
+
+.contact-form .input-field {
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid white;
+    border-radius: 4px;
+    /* border-color: white; */
+    background-color: transparent;
+    color: white;
+}
+
+.contact-input::placeholder {
+    color: white;
+    /* Replace with your desired color */
+}
+
+.contact-input .submit-button {
+    width: 70%;
+    padding: 12px;
+    border: none;
+    border-radius: 105px;
+    background-color: white;
+    color: #084237;
+    cursor: pointer;
+}
+
+.contact-head {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    margin-left: 90px;
+}
+
+.contact-head p {
+    color: #FFFFFF;
+    margin-top: 10px;
+    font-family: 'Montserrat';
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: justify;
+    max-width: 60%;
+}
+
+::placeholder {
+    color: #FFFFFF;
+    opacity: 1;
+    /* Firefox */
+}
+
+.contact-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    margin-right: 8rem;
+    height: 10vh;
+    color: #00796b;
+    font-family: 'Montserrat';
+    margin-top: 3rem
+}
+
+
+@media screen and (max-width: 768px) {
+    .contact-form {
+        flex-direction: column;
+        padding: 2.5rem;
+        height: auto;
+    }
+
+    .contact-input {
+        width: 100%;
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+    }
+
+    .contact-form h3 {
+        font-size: 1.5rem;
+    }
+
+    .contact-head {
+        margin-left: 0;
+    }
+
+    .contact-head p {
+        max-width: 90%;
+        font-size: 0.9rem;
+        text-align: justify;
+        /* margin-right: 0.5rem !important; */
+    }
+
+
+    .contact-input ::placeholder {
+        font-family: 'Montserrat';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        text-align: left;
+        color: #FFFFFF;
+    }
+
+    .contact-form .input-field {
+        width: 95%;
+    }
+
+    .contact-input .submit-button {
+        width: 100%;
+    }
+
+
+}

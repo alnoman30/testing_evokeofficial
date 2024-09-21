@@ -1,0 +1,148 @@
+.testimonial-slider {
+    text-align: center;
+    padding: 5rem;
+    margin-bottom: 3rem;
+  }
+  .testimonial-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+    .testimonial-head h2 {
+        color: #478678;
+        font-family: 'Montserrat';
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 37px;
+        text-align: center;
+        
+    }
+
+    .testimonial-head p {
+        color: #666;
+        margin-top: 10px;
+        font-family: 'Montserrat';
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 30px;
+        text-align: center;
+        /* text-wrap: wrap; */
+        width: 50%;
+    }
+  .testimonial-slider .testimonial-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .testimonial-slider .testimonial-card-container > div {
+    flex: 1;
+    margin: 0 8px;
+  }
+  
+  .testimonial-slider .navigation-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+  }
+  
+  .testimonial-slider button {
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    margin: 0 16px;
+  }
+  .card-div{
+    margin-top: 2rem;
+    margin-left: 5rem;
+  }
+  
+  .slick-prev:before,
+.slick-next:before {
+  color: black; /* Customize the color of the default arrow icons */
+}
+
+.slick-prev:before{
+  content: '';
+  display: block;
+  background: url(../../assets/ArrowRight.svg) no-repeat center;
+  border-radius: 50px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
+  width: 50px;
+}
+
+.slick-next:before{
+  content: '';
+  display: block;
+  background: url(../../assets/ArrowLeft.svg) no-repeat center;
+  border-radius: 50px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
+  width: 50px;
+}
+
+.slick-prev {
+  left: -90px; /* Customize the position of the previous arrow */
+}
+
+.slick-next {
+  right: 10px; /* Customize the position of the next arrow */
+}
+
+@media screen and (max-width: 1480px){
+
+    .slick-prev {
+        left: -40px; /* Customize the position of the previous arrow */
+    }
+    .slick-next {
+        right: 0px; /* Customize the position of the next arrow */
+    }
+
+    .testimonial-slider button{
+        margin: 0 -3rem;
+    
+    }
+
+    .testimonial-card{
+      height: 65vh;
+    }
+}
+
+@media screen and (max-width: 1280px){
+  .testimonial-card{
+    height: 75vh;
+  }
+}
+
+@media screen and (max-width: 1024px){
+  .testimonial-card{
+    height: 85vh;
+  }
+}
+
+@media screen and (max-width: 768px) {
+    .testimonial-head h2 {
+        font-size: 1rem;
+    }
+    .testimonial-head p {
+        width:90%;
+        font-size: 10px;
+    }
+    .testimonial-slider {
+        padding: 1rem;
+        margin-top: 2rem;
+    }
+    .card-div{
+        margin-top: 2rem;
+        margin-left: 0.4rem;
+      }
+  }
+    

@@ -1,0 +1,43 @@
+.trust-container {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(90deg, #00594F 0%, #51A56E 100%);
+    padding: 20px 0;
+}
+
+.trust-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.trust-item {
+    color: #FFFFFF;
+    transition: opacity 0.5s ease;
+    font-family: 'Montserrat';
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    text-align: left;
+
+}
+
+.trust-item.active {
+    opacity: 1;
+}
+
+@media (max-width: 768px) {
+    .trust-content {
+        justify-content: center;
+    }
+
+    .trust-item {
+        display: none;
+    }
+
+    .trust-item.active {
+        display: inline;
+    }
+}

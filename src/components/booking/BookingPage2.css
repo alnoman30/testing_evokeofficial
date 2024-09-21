@@ -1,0 +1,390 @@
+.time-button {
+    padding: 5px 5px;
+    margin: 5px;
+    box-shadow: 0px 5.58px 34.9px 0px #0506180D;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    border: 1px solid #70AC7C;
+    text-align: center;
+    
+}
+
+.time-buttons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+ .date-button.selected,
+ .time-button.selected,
+ .time-periods button.selected {
+     background-color: #70AC7C;
+     /* Change to your desired selected color */
+     color: white;
+
+ }
+
+ .time-submit-button {
+     padding: 10px 20px;
+     background-color: #084237;
+     /* Change to your desired button color */
+     color: white;
+     border: none;
+     border-radius: 75px;
+     cursor: pointer;
+     transform: translateX(220%);
+     width: 18vw;
+     margin-top: 1rem;
+ }
+
+
+ .booking-time-container {
+     margin-top: 1rem;
+     gap: 1rem;
+     margin-left: 8rem;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+ }
+
+ .booking-time {
+     font-family: 'Montserrat';
+     font-size: 16px;
+     font-weight: 500;
+     line-height: 24px;
+     text-align: left;
+     color: #000000;
+ }
+
+
+
+ .dates {
+     display: flex;
+     justify-content: start;
+     gap: 1rem;
+     font-family: 'Montserrat';
+ }
+
+ .date-button {
+     width: 60px;
+     /* Adjust to your desired size */
+     height: 60px;
+     /* Adjust to your desired size */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     margin: 5px;
+     border-radius: 50%;
+     cursor: pointer;
+     background-color: #FFFFFF;
+     box-shadow: 0px 5.58px 34.9px 0px #0506180D;
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 16.75px;
+     letter-spacing: 0.015em;
+     text-align: left;
+     color: #000000;
+     border: 1px solid #70AC7C;
+
+ }
+
+ .time-slots {
+     font-family: 'Montserrat';
+     font-size: 14px;
+     font-weight: 500;
+     line-height: 21px;
+     text-align: left;
+     color: #000000;
+
+ }
+
+ .time-option {
+     display: flex;
+     justify-content: center;
+     gap: 1rem;
+     font-family: 'Montserrat';
+     width: 8vw;
+     height: 6vh;
+     border-radius: 10px;
+     box-shadow: 0px 0px 10px 0px #00000040;
+     background-color: #FCFCFC;
+     border: none;
+ }
+
+ .slots {
+     margin-left: -10px;
+     margin-top: 5px;
+     padding: 5px;
+     
+ }
+
+ .date-div {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     gap: 4px;
+     font-family: 'Montserrat';
+ }
+
+ .time {
+     outline: none
+ }
+.time-periods button{
+    all: unset;
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 10px;
+    background-color: #ffffff;
+    border: 1px solid #70AC7C;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+ .date-day {
+     font-family: 'Montserrat';
+     font-size: 16px;
+     font-weight: 300;
+     line-height: 16.75px;
+     letter-spacing: 0.015em;
+     text-align: left;
+     opacity: 60%;
+
+ }
+
+ .booking-Arrow-Mob2 {
+     display: none;
+ }
+
+ .time-option {
+     font-family: 'Montserrat';
+     font-size: 14px;
+     font-weight: 500;
+     line-height: 24px;
+     text-align: center;
+ }
+
+ .mini_title{
+    font-size: 14px;
+    color: #084237;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    position: relative;
+}
+ .mini_title::after{
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 3px;
+    background-color: #084237;
+    border-radius: 20px;
+    bottom: -10px;
+    left: 0;
+}
+
+
+
+
+
+
+ @media  (max-width: 1580px) {
+    .time-submit-button {
+        transform: translateX(140%);
+    }
+}
+
+
+ @media  (max-width: 768px) {
+     .booking-time{
+        width: 350px;
+     }
+     .booking-time-container {
+        margin-left: 15rem;
+    }
+    .dates {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .booking-time-container {
+        margin-left: 0;
+      }
+      .booking-Arrow-Mob2 {
+        display: block;
+    }
+    .time-option {
+        width: 42vw;
+      }
+      .date-button {
+        width: 50px;
+        height: 50px;
+
+    }
+    .slots {
+        margin-left: -10px;
+        margin-top: 5px;
+        padding: 5px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* 4 columns per row */
+        gap: 0.5rem;
+        
+    }
+    .time-submit-button {
+        transform: translateX(0);
+        width: 35vh;
+    }
+ }
+
+
+
+
+ @media screen and (max-width: 768px) {
+    .date-button {
+        width: 50px !important;
+        height: 50px !important;
+    }
+    .booking-time-container {
+        padding: 1.5rem;
+        margin-right: 0;
+    }
+
+    .booking-Arrow-Mob2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5rem;
+        cursor: pointer;
+        /* margin-left: -1rem; */
+        /* margin-top: -10rem; */
+        /* margin-right: 2rem; */
+        transform: scale(1.1);
+    }
+
+    .time-option {
+        width: 15vw;
+    }
+
+    .time-submit-button {
+        width: 30vw;
+    }
+
+    .date-button {
+        width: 60px;
+        height: 60px;
+    }
+
+    .time-button {
+        padding: 5px 10px;
+    }
+
+    .time-slots {
+        font-size: 18px;
+    }
+
+    .date-day {
+        font-size: 14px;
+    }
+
+    .date-button {
+        font-size: 14px;
+    }
+
+    .time-option {
+        font-size: 14px;
+        width: 30vw;
+        height: 5.5vh;
+        background-color: #F7F8F8;
+    }
+
+    .time-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+        background-color: #F7F8F8;
+        box-shadow: 0px 3.43px 21.43px 0px #0506180D;
+        border-radius: 20px;
+        width: 20vw;
+        height: 3vh;
+        text-wrap: nowrap;
+        border: 1px solid #70AC7C;
+        
+
+        /* width: 12vw; */
+    }
+
+    .time-submit-button {
+        font-size: 14px;
+    }
+
+    .booking-time {
+        /* font-size: 14px; */
+        font-family: 'Montserrat';
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+        text-align: left;
+        color: #084237;
+
+    }
+
+
+
+    .dates {
+        font-size: 14px;
+    }
+
+    .slots {
+        font-size: 12px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0.5rem;
+
+    }
+
+    .date-div {
+        font-size: 14px;
+    }
+
+    .time {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+    }
+
+    .time-submit-button {
+        width: 70vw;
+        transform: none;
+    }
+
+    .booking-page2 {
+        height: auto;
+    }
+    .time-buttons{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .time-periods button{
+        padding: 10px;
+        font-size: 14px;
+        border-radius: 10px;
+        margin-right: 10px;
+    }
+
+}
+
+
+@media screen and (min-width: 1580px) {
+    .booking-time-container {
+        margin-right: 34rem;
+    }
+
+    .booking-Arrow {
+        transform: scale(1.1);
+    }
+
+    .booking-page2 {
+        margin-left: 20rem;
+    }
+
+}

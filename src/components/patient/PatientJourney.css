@@ -1,0 +1,257 @@
+.patient-journey-container {
+    text-align: center;
+    padding: 40px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.patient-journey-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.patient-journey-header h2 {
+    color: #478678;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 37px;
+    text-align: center;
+
+}
+
+.patient-journey-header p {
+    color: #666;
+    margin-top: 10px;
+    font-family: 'Montserrat';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    /* text-wrap: wrap; */
+    width: 48%;
+
+}
+
+.patient-journey-timeline {
+    margin-top: 40px;
+    position: relative;
+    /* margin-right: 50rem; */
+    padding-left: 5rem;
+}
+
+.patient-journey-timeline::before {
+
+    content: '';
+    position: absolute;
+    top: 4rem;
+    bottom: 0;
+    left: 425px;
+    width: 1px;
+    background-color: #084237;
+    z-index: -1;
+    height: 66vh;
+}
+
+.treatment {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    position: relative;
+}
+
+.treatment-line {
+    position: absolute;
+    left: 335px;
+    width: 20px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* 
+.treatment-line::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background-color: #2a8d91;
+} */
+
+.treatment-dot {
+    width: 10px;
+    height: 10px;
+    /* gap: 2rem; */
+    background-color: #084237;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.treatment-info {
+    /* flex: 1; */
+    text-align: left;
+    padding-left: 3rem;
+    margin-top: 3.5rem;
+    /* gap: 5rem; */
+    width: 30%;
+    /* Added padding to separate from line */
+}
+
+.treatment-info span {
+    color: black;
+    margin: 0;
+    font-family: 'Montserrat';
+font-size: 16px;
+font-weight: 600;
+line-height: 21.46px;
+letter-spacing: 0.03em;
+text-align: left;
+
+
+}
+
+.treatment-info p {
+    color: #555555;
+    margin: 5px 0;
+    font-family: 'Montserrat';
+font-size: 12px;
+font-weight: 400;
+line-height: 25.4px;
+/* width: 55%; */
+text-wrap: wrap;
+}
+
+.treatment-image {
+    /* flex: 1; */
+    display: flex;
+    align-items: start;
+    margin-top: 2rem;
+    margin-left: 5rem;
+    
+    /* Added padding to separate from info */
+}
+
+.treatment-image img {
+    width: 10vw;
+    height: auto;
+    border-radius: 10px;
+}
+
+.treatment-div{
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+
+@media screen and (max-width: 380px){
+    .patient-journey-timeline::before {
+       
+        top: 4.4rem !important;
+       
+    }
+}
+
+
+@media screen and (max-width: 1480px) {
+    .patient-journey-timeline::before {
+
+        height: 76%;
+    }
+}
+
+@media screen and (max-width: 1320px) {
+    .patient-journey-timeline::before {
+
+        height: 78%;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .patient-journey-header h2 {
+        font-size: 1rem;
+    }
+
+    .patient-journey-header p {
+        font-size: 10px;
+        width: 100%;
+    }
+
+    .patient-journey-timeline {
+        margin-right: 0;
+        padding-left: 0;
+        margin-top: 0;
+        
+    }
+
+
+   .treatment-info {
+        margin-left: -1.5rem;
+        width: 35vw;
+    }
+
+    .treatment-info span {
+        font-size: 14px;
+        
+        
+    }
+
+    .treatment-line{
+        margin-left: -1.5rem;
+        left: 0;
+    }
+
+    .treatment-info p {
+        font-size: 10px !important;
+        text-align: justify;
+        width: 44vw;
+    }
+    .treatment-info::before {
+        right: 98%;
+        top: 52%;
+
+    }
+
+    .treatment-dot{
+        position: relative;
+    /* top: -32px; */
+    bottom: 40px;
+    }
+
+    .patient-journey-timeline::before {
+        content: '';
+        position: absolute;
+        top: 3.5rem;
+        bottom: 0;
+        left: -15px;
+        width: 2px;
+        background-color: #084237;
+        z-index: -1;
+        height: 85vh;
+    }
+
+    .treatment-image {
+        flex: 1;
+        display: flex;
+        align-items: start;
+        margin-top: 3.5rem;
+        margin-left: 3rem;
+        /* Added padding to separate from info */
+    }
+    
+    .treatment-image img {
+        width: 30vw;
+        height: auto;
+        border-radius: 10px;
+    }
+
+}

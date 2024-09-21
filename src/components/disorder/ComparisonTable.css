@@ -1,0 +1,157 @@
+.comparison-table {
+  text-align: center;
+  padding: 2rem;
+}
+
+.separator {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 0;
+  padding: 0;
+}
+
+.benefits {
+  margin-top: -2rem;
+  padding: 7rem;
+  font-family: 'montserrat';
+}
+
+.benefits h3 {
+  font-family: 'Montserrat';
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  text-align: left;
+
+  color: #084237;
+  margin-bottom: 1rem;
+  text-align: justify;
+}
+
+.benefits h1 {
+  font-size: 6rem;
+  color: #22696330;
+  margin-bottom: 1rem;
+  /* text-align: justify; */
+}
+
+.benefits ul {
+  list-style: none;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  color: #084237;
+}
+
+.benefit-div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  margin-bottom: 1rem;
+  gap: 1.5rem;
+  font-family: 'Montserrat';
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 40px;
+  text-align: left;
+
+}
+
+.image-span {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: row;
+  gap: 1rem;
+  font-family: 'Montserrat';
+font-size: 20px;
+font-weight: 500;
+line-height: 40px;
+text-align: left;
+color: #084237;
+
+}
+
+.image-span img{
+  transform: scale(1.2);
+  width: 45px;
+  height: 45px;
+
+}
+
+.benefit-span{
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  grid-template-columns: 2fr;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 40px;
+  text-align: left;
+
+}
+
+.benefit-span p{
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+  width: 60%;
+  font-family: 'Montserrat';
+  margin-left: 60px;
+
+
+}
+
+@media screen and (max-width: 768px) {
+  .benefits {
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+
+  .benefits h1 {
+    font-size: 3rem;
+    /* margin-left: 5px; */
+  }
+
+  .benefits h3 {
+    font-size: 16px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    line-height: 40px;
+    text-align: left;
+
+  }
+
+  .benefit-div{
+    grid-template-columns: 1fr;
+  }
+
+  .benefits li img {
+    transform: scale(0.8);
+  }
+
+  .benefits li {
+    font-size: 0.9rem;
+    font-family: 'Montserrat';
+
+    font-weight: 500;
+    line-height: 27.06px;
+    text-align: left;
+
+  }
+
+  .image-span{
+    font-size: 14px;
+  }
+
+  .benefit-span p{
+    font-size: 10px;
+    width: 90%;
+  }
+
+  .image-span img{
+    transform: scale(0.8);
+  }
+}

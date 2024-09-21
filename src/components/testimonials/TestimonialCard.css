@@ -1,0 +1,155 @@
+.testimonial-card {
+    border-radius: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    text-align: left;
+    margin: 8px;
+    background: white;
+    max-width: 300px;
+    position: relative;
+    height: 60vh;
+}
+
+.testimonial-card-content {
+    padding: 16px;
+}
+
+.subtitle {
+    margin-bottom: -1rem;
+    background-color: #70AC7C;
+    color: white;
+    padding: 8px 16px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    font-weight: bold;
+    position: absolute;
+    /* Absolutely position the header */
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: start;
+    font-family: 'Montserrat';
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 18.44px;
+    text-align: left;
+
+}
+
+
+
+.testimonial-card h3 {
+    margin: 16px 0 4px;
+    color: #084237;
+}
+
+.testimonial-card .rating {
+    color: #ffca28;
+    font-size: 1.5rem;
+    margin: 8px 0;
+}
+
+.testimonial-card .tags {
+    margin-top: 8px;
+    display: flex;
+    gap: 0.8rem;
+}
+
+.review {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 15.09px;
+    text-align: left;
+    color: #333333;
+    margin-bottom: 1rem;
+}
+
+.review-content {
+    font-family: 'Montserrat';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 23.1px;
+
+}
+
+.testimonial-card .tag-button {
+    margin-right: 4px;
+    margin-bottom: 4px;
+    background-color: #70AC7C;
+    color: white;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 4px;
+    display: inline-block;
+    font-size: 14px;
+    font-family: 'Montserrat';
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15.09px;
+    text-align: left;
+
+}
+
+.testimonial-card .treatment {
+    margin-top: 16px;
+    color: #555555;
+    justify-content: start;
+    font-family: 'Montserrat';
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 15.09px;
+
+
+}
+
+.name-date {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 15.09px;
+    text-align: left;
+    color: #084237;
+    margin-bottom: 0.5rem;
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .testimonial-card {
+        max-width: 100%;
+        height: 55vh !important;
+    }
+    .testimonial-card-content {
+        padding: 8px;
+    }
+    .testimonial-card h3 {
+        font-size: 1.2rem;
+    }
+    .testimonial-card .rating {
+        font-size: 1.2rem;
+    }
+    .testimonial-card .tags {
+        font-size: 0.8rem;
+    }
+    .review {
+        font-size: 1rem;
+    }
+    .review-content {
+        font-size: 0.8rem;
+    }
+    .testimonial-card .tag-button {
+        font-size: 0.8rem;
+    }
+    .testimonial-card .treatment {
+        font-size: 1rem;
+    }
+    .name-date {
+        font-size: 0.8rem;
+    }
+    
+}
